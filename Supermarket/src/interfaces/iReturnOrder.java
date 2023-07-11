@@ -23,5 +23,5 @@ public interface iReturnOrder {
      * @param orderPrice - сумма покупки.
      * @return сумму покупки.
      */
-    float moneyReturn(int orderPrice);
+    float moneyReturn(float orderPrice);
 }

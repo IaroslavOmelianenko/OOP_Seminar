@@ -52,7 +52,7 @@ public class SpecialClient extends Actor {
     }
 
     @Override
-    public float moneyReturn(int orderPrice) {
+    public float moneyReturn(float orderPrice) {
         return orderPrice;
     }
 }

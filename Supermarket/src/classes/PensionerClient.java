@@ -52,7 +52,7 @@ public class PensionerClient extends Actor {
     }
 
     @Override
-    public float moneyReturn(int orderPrice) {
+    public float moneyReturn(float orderPrice) {
         return (float) (orderPrice * 0.75);
     }
 }

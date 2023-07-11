@@ -55,7 +55,7 @@ public class PromoClient extends Actor{
     }
 
     @Override
-    public float moneyReturn(int orderPrice) {
+    public float moneyReturn(float orderPrice) {
         return (float) (orderPrice * 0.25);
     }
 }
